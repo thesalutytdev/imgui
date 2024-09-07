@@ -1,6 +1,6 @@
-package org.thesalutyt.imgui.utils;
+package org.thesalutyt.imgui.api.utils;
 
-import org.thesalutyt.imgui.interfaces.Renderable;
+import org.thesalutyt.imgui.api.interfaces.Renderable;
 
 import java.util.ArrayList;
 

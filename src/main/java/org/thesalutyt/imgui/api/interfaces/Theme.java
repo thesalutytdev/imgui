@@ -1,4 +1,4 @@
-package org.thesalutyt.imgui.interfaces;
+package org.thesalutyt.imgui.api.interfaces;
 
 public interface Theme {
     void preRender();

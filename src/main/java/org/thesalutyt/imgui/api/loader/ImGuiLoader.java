@@ -1,4 +1,4 @@
-package org.thesalutyt.imgui.loader;
+package org.thesalutyt.imgui.api.loader;
 
 import imgui.*;
 import imgui.flag.ImGuiCol;
@@ -7,8 +7,8 @@ import imgui.gl3.ImGuiImplGl3;
 import imgui.glfw.ImGuiImplGlfw;
 import imgui.internal.ImGuiContext;
 import net.minecraft.client.Minecraft;
-import org.thesalutyt.imgui.interfaces.Renderable;
-import org.thesalutyt.imgui.utils.Manager;
+import org.thesalutyt.imgui.api.interfaces.Renderable;
+import org.thesalutyt.imgui.api.utils.Manager;
 import static org.lwjgl.glfw.GLFW.*;
 
 public class ImGuiLoader {

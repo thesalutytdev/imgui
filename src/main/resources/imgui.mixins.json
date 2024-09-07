@@ -1,12 +1,14 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "org.thesalutyt.imguicore.mixin",
+  "package": "org.thesalutyt.imgui.mixins",
   "compatibilityLevel": "JAVA_8",
   "refmap": "imgui.refmap.json",
   "mixins": [
   ],
   "client": [
+    "GLFWInitMixin",
+    "TailRenderMixin"
   ],
   "injectors": {
     "defaultRequire": 1
